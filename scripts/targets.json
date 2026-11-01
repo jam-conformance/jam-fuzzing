@@ -25,7 +25,7 @@
   },
   "jamduna": {
     "image": "ghcr.io/jam-duna/duna-target:latest",
-    "gp_version": "0.7.2"
+    "gp_version": "0.8.0"
   },
   "jamforge": {
     "image": "ghcr.io/philoniare/jam-forge:latest",
