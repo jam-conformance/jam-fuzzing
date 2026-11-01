@@ -12,6 +12,7 @@
 
 ### GP 0.8.0
 
+* jamduna (go)
 * jamforge (scala)
 * jampy (python)
 * javajam (java)
@@ -28,7 +29,6 @@
 * gossamer (go)
 * graymatter (elixir)
 * jam4s (scala)
-* jamduna (go)
 * jamixir (elixir)
 * jamzig (zig)
 * jamzilla (go)
