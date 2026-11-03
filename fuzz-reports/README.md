@@ -19,6 +19,7 @@
 * lasair (ocaml)
 * pbnjam (ts)
 * pyjamaz (python)
+* turbojam (c++)
 
 [Summary](./0.8.0/summaries/summary-table.md)
 
@@ -38,7 +39,6 @@
 * strawberry (go)
 * tessera (python)
 * tsjam (ts)
-* turbojam (c++)
 * typeberry (ts)
 * vinwolf (rust)
 

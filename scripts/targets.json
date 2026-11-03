@@ -100,7 +100,7 @@
   },
   "turbojam": {
     "image": "docker.io/r2rationality/turbojam-fuzz:latest",
-    "gp_version": "0.7.2"
+    "gp_version": "0.8.0"
   },
   "typeberry": {
     "image": "ghcr.io/fluffylabs/typeberry:latest",
