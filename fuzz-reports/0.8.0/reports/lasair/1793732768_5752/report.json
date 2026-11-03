@@ -1,0 +1,79 @@
+{
+    "config": {
+        "seed": "61d5056e86e3ba65",
+        "jam_spec": "tiny",
+        "max_steps": 1000,
+        "safrole": false,
+        "disputes": false,
+        "profile": "full",
+        "fuzzy_profile": "full",
+        "max_work_items": 16,
+        "mutation_ratio": 0.1,
+        "max_mutations": 0,
+        "source": "local",
+        "skip_slots": false,
+        "version": "0.1.29-60a68e3f1b33-dirty"
+    },
+    "stats": {
+        "steps": 36,
+        "imported": 36,
+        "import_max_step": 12,
+        "import_min": 1.387718,
+        "import_max": 153.698476,
+        "import_mean": 24.07748866666667,
+        "import_p50": 7.831,
+        "import_p75": 13.334,
+        "import_p90": 94.294,
+        "import_p99": 153.698,
+        "import_std_dev": 41.25140205484616
+    },
+    "target": {
+        "info": {
+            "fuzz_version": 1,
+            "fuzz_features": 3,
+            "jam_version": {
+                "major": 0,
+                "minor": 8,
+                "patch": 0
+            },
+            "app_version": {
+                "major": 2,
+                "minor": 0,
+                "patch": 3
+            },
+            "app_name": "lasair"
+        },
+        "stats": {
+            "steps": 36,
+            "imported": 36,
+            "import_max_step": 12,
+            "import_min": 3.053201,
+            "import_max": 581.444647,
+            "import_mean": 40.07833533333333,
+            "import_p50": 17.629,
+            "import_p75": 33.731,
+            "import_p90": 66.898,
+            "import_p99": 581.444,
+            "import_std_dev": 96.79078722551152
+        }
+    },
+    "error": {
+        "state_diff": {
+            "roots": {
+                "exp": "0x4fb44d9fb3cfbc1df0d857108b2bd39609b1d417f9795b53414d74f15db1f65a",
+                "got": "0x3bbc3eabf579432052b27f47e54373f512f65641f04e84595c227262dd0f214c"
+            },
+            "keyvals": [
+                {
+                    "key": "0x0c000000000000000000000000000000000000000000000000000000000000",
+                    "diff": {
+                        "exp": "0x00000000b864b355b864b355334954ee334954ee02b864b35503ec080000000000551d288baca1020000000000",
+                        "got": "0x000000000000000000000000334954ee334954ee02b864b35503ec080000000000551d288baca1020000000000"
+                    }
+                }
+            ]
+        }
+    },
+    "mutant_of": null,
+    "mutations": []
+}

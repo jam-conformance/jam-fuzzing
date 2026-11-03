@@ -1,0 +1,68 @@
+{
+    "config": {
+        "seed": "6614f1f3568425dc",
+        "jam_spec": "tiny",
+        "max_steps": 240,
+        "safrole": true,
+        "disputes": true,
+        "profile": "full",
+        "fuzzy_profile": "full",
+        "max_work_items": 5,
+        "mutation_ratio": 0.1,
+        "max_mutations": 5,
+        "source": "local",
+        "skip_slots": true,
+        "version": "0.1.29-60a68e3f1b33-dirty"
+    },
+    "stats": {
+        "steps": 31,
+        "imported": 10,
+        "import_max_step": 23,
+        "import_min": 1.5449599999999999,
+        "import_max": 113.839106,
+        "import_mean": 17.8928214,
+        "import_p50": 10.101,
+        "import_p75": 13.085,
+        "import_p90": 14.862,
+        "import_p99": 113.839,
+        "import_std_dev": 34.10599639558414
+    },
+    "target": {
+        "info": {
+            "fuzz_version": 1,
+            "fuzz_features": 3,
+            "jam_version": {
+                "major": 0,
+                "minor": 8,
+                "patch": 0
+            },
+            "app_version": {
+                "major": 0,
+                "minor": 3,
+                "patch": 1
+            },
+            "app_name": "jamduna-target"
+        },
+        "stats": {
+            "steps": 31,
+            "imported": 9,
+            "import_max_step": 12,
+            "import_min": 2.1911259999999997,
+            "import_max": 143.556299,
+            "import_mean": 26.95324022222222,
+            "import_p50": 6.817,
+            "import_p75": 17.323,
+            "import_p90": 50.806,
+            "import_p99": 143.556,
+            "import_std_dev": 46.374549579381714
+        }
+    },
+    "error": {
+        "import_result_diff": {
+            "exp": "ok",
+            "got": "block header is not valid err=VerifyBlockHeader Failed: missing fallback key"
+        }
+    },
+    "mutant_of": null,
+    "mutations": []
+}
