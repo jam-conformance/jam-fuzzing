@@ -1,31 +1,31 @@
 {
     "config": {
-        "seed": "1a3bd29b920fabab",
+        "seed": "ea420c8746f2f84",
         "jam_spec": "tiny",
-        "max_steps": 1000,
+        "max_steps": 4294967295,
         "safrole": false,
         "disputes": false,
-        "profile": "fuzzy",
-        "fuzzy_profile": "misc",
+        "profile": "full",
+        "fuzzy_profile": "full",
         "max_work_items": 5,
         "mutation_ratio": 0.1,
         "max_mutations": 0,
-        "source": "local",
+        "source": "trace",
         "skip_slots": false,
         "version": "0.1.29-60a68e3f1b33-dirty"
     },
     "stats": {
-        "steps": 31,
-        "imported": 31,
-        "import_max_step": 23,
-        "import_min": 1.407352,
-        "import_max": 190.187249,
-        "import_mean": 14.620984419354839,
-        "import_p50": 4.288,
-        "import_p75": 6.392,
-        "import_p90": 9.339,
-        "import_p99": 190.187,
-        "import_std_dev": 37.35359409000405
+        "steps": 1,
+        "imported": 1,
+        "import_max_step": 1,
+        "import_min": 10.937838,
+        "import_max": 10.937838,
+        "import_mean": 10.937838,
+        "import_p50": 10.937838,
+        "import_p75": 10.937838,
+        "import_p90": 10.937838,
+        "import_p99": 10.937838,
+        "import_std_dev": 0.0
     },
     "target": {
         "info": {
@@ -44,17 +44,17 @@
             "app_name": "lasair"
         },
         "stats": {
-            "steps": 31,
-            "imported": 31,
-            "import_max_step": 12,
-            "import_min": 1.8839569999999999,
-            "import_max": 484.68172999999996,
-            "import_mean": 30.111791451612905,
-            "import_p50": 8.025,
-            "import_p75": 20.941,
-            "import_p90": 34.792,
-            "import_p99": 484.681,
-            "import_std_dev": 85.66580410269988
+            "steps": 1,
+            "imported": 1,
+            "import_max_step": 1,
+            "import_min": 38.53614,
+            "import_max": 38.53614,
+            "import_mean": 38.53614,
+            "import_p50": 38.53614,
+            "import_p75": 38.53614,
+            "import_p90": 38.53614,
+            "import_p99": 38.53614,
+            "import_std_dev": 0.0
         }
     },
     "error": {

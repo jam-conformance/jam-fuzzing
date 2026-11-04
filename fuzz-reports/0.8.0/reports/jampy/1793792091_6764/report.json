@@ -1,31 +1,31 @@
 {
     "config": {
-        "seed": "f4d020bd497ba960",
+        "seed": "571c5637635c0f06",
         "jam_spec": "tiny",
-        "max_steps": 16000,
+        "max_steps": 4294967295,
         "safrole": false,
         "disputes": false,
-        "profile": "management",
+        "profile": "full",
         "fuzzy_profile": "full",
         "max_work_items": 5,
         "mutation_ratio": 0.1,
-        "max_mutations": 5,
-        "source": "local",
+        "max_mutations": 0,
+        "source": "trace",
         "skip_slots": false,
         "version": "0.1.29-60a68e3f1b33-dirty"
     },
     "stats": {
-        "steps": 6161,
-        "imported": 2253,
-        "import_max_step": 3269,
-        "import_min": 1.265584,
-        "import_max": 168.19246700000002,
-        "import_mean": 20.205768502885082,
-        "import_p50": 5.668,
-        "import_p75": 9.003,
-        "import_p90": 107.661,
-        "import_p99": 126.379,
-        "import_std_dev": 37.6899107800839
+        "steps": 4,
+        "imported": 2,
+        "import_max_step": 1,
+        "import_min": 122.129252,
+        "import_max": 126.76203699999999,
+        "import_mean": 124.44564449999999,
+        "import_p50": 126.762,
+        "import_p75": 126.762,
+        "import_p90": 126.762,
+        "import_p99": 126.762,
+        "import_std_dev": 3.2758736892793134
     },
     "target": {
         "info": {
@@ -44,17 +44,17 @@
             "app_name": "jampy"
         },
         "stats": {
-            "steps": 6161,
-            "imported": 2252,
-            "import_max_step": 12,
-            "import_min": 5.530264,
-            "import_max": 1501.2707870000002,
-            "import_mean": 266.0928270031083,
-            "import_p50": 170.721,
-            "import_p75": 462.595,
-            "import_p90": 701.164,
-            "import_p99": 1138.675,
-            "import_std_dev": 295.3167198227525
+            "steps": 4,
+            "imported": 1,
+            "import_max_step": 1,
+            "import_min": 50.434908,
+            "import_max": 50.434908,
+            "import_mean": 50.434908,
+            "import_p50": 50.434908,
+            "import_p75": 50.434908,
+            "import_p90": 50.434908,
+            "import_p99": 50.434908,
+            "import_std_dev": 0.0
         }
     },
     "error": {
@@ -63,9 +63,6 @@
             "got": "bad_signature"
         }
     },
-    "mutant_of": "0x1b9e8d1b05ad9c2dc81d64d21e1dfe967ab374ded64917a59525e0adc6203069",
-    "mutations": [
-        "DisputesXt#00",
-        "Verdict#02"
-    ]
+    "mutant_of": null,
+    "mutations": []
 }

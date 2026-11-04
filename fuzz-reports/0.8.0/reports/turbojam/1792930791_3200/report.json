@@ -1,6 +1,6 @@
 {
     "config": {
-        "seed": "47e794b382b1fe3c",
+        "seed": "fa70786c0556c50c",
         "jam_spec": "tiny",
         "max_steps": 4294967295,
         "safrole": false,
@@ -18,13 +18,13 @@
         "steps": 2,
         "imported": 1,
         "import_max_step": 2,
-        "import_min": 11.182191,
-        "import_max": 11.182191,
-        "import_mean": 11.182191,
-        "import_p50": 11.182191,
-        "import_p75": 11.182191,
-        "import_p90": 11.182191,
-        "import_p99": 11.182191,
+        "import_min": 7.391144,
+        "import_max": 7.391144,
+        "import_mean": 7.391144,
+        "import_p50": 7.391144,
+        "import_p75": 7.391144,
+        "import_p90": 7.391144,
+        "import_p99": 7.391144,
         "import_std_dev": 0.0
     },
     "target": {
@@ -39,7 +39,7 @@
             "app_version": {
                 "major": 0,
                 "minor": 3,
-                "patch": 0
+                "patch": 1
             },
             "app_name": "turbojam"
         },
@@ -60,7 +60,7 @@
     "error": {
         "import_result_diff": {
             "exp": "ok",
-            "got": "N5turbo3jam33err_segment_root_lookup_invalid_tE"
+            "got": "N5turbo3jam27err_lookup_anchor_invalid_tE"
         }
     },
     "mutant_of": null,
