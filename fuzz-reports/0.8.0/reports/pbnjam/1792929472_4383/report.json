@@ -1,0 +1,68 @@
+{
+    "config": {
+        "seed": "8cfaa05663f7745f",
+        "jam_spec": "tiny",
+        "max_steps": 4294967295,
+        "safrole": false,
+        "disputes": false,
+        "profile": "full",
+        "fuzzy_profile": "full",
+        "max_work_items": 5,
+        "mutation_ratio": 0.1,
+        "max_mutations": 0,
+        "source": "trace",
+        "skip_slots": false,
+        "version": "0.1.29-87c432753745-dirty"
+    },
+    "stats": {
+        "steps": 3,
+        "imported": 2,
+        "import_max_step": 3,
+        "import_min": 1.330089,
+        "import_max": 1.5399800000000001,
+        "import_mean": 1.4350345,
+        "import_p50": 1.539,
+        "import_p75": 1.539,
+        "import_p90": 1.539,
+        "import_p99": 1.539,
+        "import_std_dev": 0.14841534941002577
+    },
+    "target": {
+        "info": {
+            "fuzz_version": 1,
+            "fuzz_features": 3,
+            "jam_version": {
+                "major": 0,
+                "minor": 8,
+                "patch": 0
+            },
+            "app_version": {
+                "major": 0,
+                "minor": 7,
+                "patch": 2
+            },
+            "app_name": "pbnj-fuzzer-target"
+        },
+        "stats": {
+            "steps": 3,
+            "imported": 1,
+            "import_max_step": 2,
+            "import_min": 102.922732,
+            "import_max": 102.922732,
+            "import_mean": 102.922732,
+            "import_p50": 102.922732,
+            "import_p75": 102.922732,
+            "import_p90": 102.922732,
+            "import_p99": 102.922732,
+            "import_std_dev": 0.0
+        }
+    },
+    "error": {
+        "import_result_diff": {
+            "exp": "ok",
+            "got": "Local chain error: invalid parent state root (expected: 0x0f9064e87816599a..., actual: 0xd81fbcd0a77d8d39...)"
+        }
+    },
+    "mutant_of": null,
+    "mutations": []
+}

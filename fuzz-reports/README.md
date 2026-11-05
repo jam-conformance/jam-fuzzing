@@ -10,6 +10,19 @@
 
 ## Teams
 
+### GP 0.8.0
+
+* jamduna (go)
+* jamforge (scala)
+* jampy (python)
+* javajam (java)
+* lasair (ocaml)
+* pbnjam (ts)
+* pyjamaz (python)
+* turbojam (c++)
+
+[Summary](./0.8.0/summaries/summary-table.md)
+
 ### GP 0.7.2
 
 * boka (swift)
@@ -17,22 +30,15 @@
 * gossamer (go)
 * graymatter (elixir)
 * jam4s (scala)
-* jamduna (go)
-* jamforge (scala)
 * jamixir (elixir)
-* jampy (python)
 * jamzig (zig)
 * jamzilla (go)
-* javajam (java)
 * new-jamneration (go)
-* pbnjam (ts)
 * polkajam (rust)
-* pyjamaz (python)
 * spacejam (rust)
 * strawberry (go)
 * tessera (python)
 * tsjam (ts)
-* turbojam (c++)
 * typeberry (ts)
 * vinwolf (rust)
 
