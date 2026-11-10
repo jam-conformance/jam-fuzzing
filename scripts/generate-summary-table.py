@@ -8,7 +8,7 @@ Usage:
 
 Each .txt file in the folder is expected to have lines like:
     <emoji> <test_id>
-where emoji is one of: green circle, red circle, yellow circle, white circle.
+where emoji is one of: green circle, red circle, yellow circle, white circle, skull.
 
 The output table is written to summary-table.md in the same folder.
 """
@@ -22,9 +22,10 @@ EMOJI_TO_SYMBOL = {
     "\U0001f534": "\U0001f534",  # red    -> red (fail)
     "\U0001f7e1": "\U0001f7e1",  # yellow -> yellow (keep as-is)
     "\u26aa":     "\u26aa",      # white  -> white (skip/not applicable)
+    "\U0001f480": "\U0001f534",  # skull  -> red (target or fuzzer died, no report)
 }
 
-STATUS_LINE_RE = re.compile(r"^([\U0001f7e2\U0001f534\U0001f7e1\u26aa])\s+(.+)$")
+STATUS_LINE_RE = re.compile(r"^([\U0001f7e2\U0001f534\U0001f7e1\u26aa\U0001f480])\s+(.+)$")
 
 # Symbol used when a test ID is not present for a target
 NOT_PRESENT = "\u26aa"
