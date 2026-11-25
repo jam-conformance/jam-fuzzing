@@ -15,6 +15,10 @@
     "image": "ghcr.io/jambrains/graymatter/gm:conformance-fuzzer-latest",
     "gp_version": "0.7.2"
   },
+    "jam-lean": {
+    "image": "ghcr.io/ascrivener/jam-lean-target:latest",
+    "gp_version": "0.8.1"
+  },
   "jam4s": {
     "image": "docker.io/jamforscala/jam4s:latest",
     "gp_version": "0.7.2"
