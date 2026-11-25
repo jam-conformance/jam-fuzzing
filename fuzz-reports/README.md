@@ -20,6 +20,7 @@
 * pbnjam (ts)
 * pyjamaz (python)
 * turbojam (c++)
+* vinwolf (rust)
 
 [Summary](./0.8.0/summaries/summary-table.md)
 
@@ -40,6 +41,5 @@
 * tessera (python)
 * tsjam (ts)
 * typeberry (ts)
-* vinwolf (rust)
 
 [Summary](./0.7.2/summaries/summary-table.md)

@@ -112,6 +112,6 @@
   },
   "vinwolf": {
     "image": "ghcr.io/bloppan/vinwolf-target:latest",
-    "gp_version": "0.7.2"
+    "gp_version": "0.8.0"
   }
 }
